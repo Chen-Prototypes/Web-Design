@@ -1,10 +1,41 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
   </head>
+
   <body> 
-    <h1>Generic Survey Form</h1>
+    <h1 id="title">Guild Wars 2 Raid Survey Form</h1>
+    <p id="description">Thank you for taking the time to tell us how you feel about raiding in GW2 </p>
+    
+    <form id="survey-form">
+      <fieldset> <!-- For basic information-->
+        <label>Account Name<input id="account-name" type="text" required></label>
+        <label>Favourite Title<input id="fav-title" type="text" required></label>
+        <label>Age (optional)<input id="age" type="number"></label>
+
+        <label>What is your primary profession
+          <select id="profession" required>
+            <option value="">(select one)</option>
+            <option value="1">Warrior</option>
+            <option value="2">Guardian</option>
+            <option value="3">Revenant</option>
+            <option value="4">Ranger</option>
+            <option value="5">Thief</option>
+            <option value="6">Engineer</option>
+            <option value="7">Mesmer</option>
+            <option value="8">Elementalist</option>
+            <option value="9">Necromancer</option>
+          </select>
+        </label>
+      </fieldset>
+    
+
+
+    </form>
+
+    
   <body>
 
 </html>
