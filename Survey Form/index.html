@@ -30,8 +30,8 @@
         </label>
       </fieldset>
 
-      <fieldset> <!-- Profession and EXP -->
-        <label>What is your primary profession
+      <fieldset> <!-- Profession, EXP and Player Experience -->
+        <label id="next-field">What is your primary profession
           <select id="dropdown" required>
             <option value="">(select one)</option>
             <option value="1">Warrior</option>
@@ -46,7 +46,7 @@
           </select>
         </label>
 
-        <p> What would you consider as your raiding level </p>
+        <label> What would you consider as your raiding level </label>
         <label> 
           <input id="adv" name="EXP" type="radio" class="inline" value="3"> Advanced
         </label>
@@ -55,22 +55,29 @@
           <input id="int" name="EXP" type="radio" class="inline" value="2"> Intermediate
         </label>
         
-        <label> 
+        <label id="next-field"> 
           <input id="beg" name="EXP" type="radio" class="inline" value="1"> Beginner
         </label>
-      </fieldset>
-
-      <fieldset> <!-- Player Experience -->
-        <p> What do you like about raiding? </p>
+ 
+        <label> What do you like about raiding? </label>
         
         <label> 
           <input type="checkbox" name="like" class="inline" value="1"> Killing the cool bosses
+        </label>
+
+        <label>
           <input type="checkbox" name="like" class="inline" value="2"> Legendary Insights
+        </label>
+
+        <label>
           <input type="checkbox" name="like" class="inline" value="3"> Mechanical Intensity
+        <label>
+
+        <label id="next-field">
           <input type="checkbox" name="like" class="inline" value="4"> Other
         </label>
 
-        <label> Anything else youd like us to know?
+        <label> Anything else you would like us to know?
           <textarea rows="3" cols="30"></textarea>
         </label>        
       </fieldset>

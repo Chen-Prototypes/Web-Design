@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Lato;
+    font-size: 18px; 
+  }
+  
+  h1 {
+    padding: 0.5em 0 0 0;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  form {
+    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2.5em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    padding: 1rem 0;
+    border-bottom: none;
+  }
+  
+  label[id="next-field"] {
+      margin: 0 0 1.4rem 0;
+  }
+  
+  
