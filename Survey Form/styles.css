@@ -2,8 +2,8 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #1b1b32;
-    color: #f5f6f7;
+    background-image:url(https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/wallpapers/af6953a10506-1920x1200.jpg);
+    color: #000000;
     font-family: Lato;
     font-size: 18px; 
   }
@@ -14,6 +14,8 @@ body {
   
   h1, p {
     text-align: center;
+    color: #ffffff;
+  
   }
   
   .inline {
@@ -26,13 +28,16 @@ body {
     width: 80vw;
     max-width: 500px;
     min-width: 300px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
     margin: 0 auto;
-    padding-bottom: 2.5em;
+    padding: 0 0.5em 1.5em 0.5em;
   }
   
   label {
     display: block;
     margin: 0.5rem 0;
+    color: #ffffff
   }
   
   input,
