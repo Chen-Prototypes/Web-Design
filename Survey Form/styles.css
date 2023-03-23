@@ -1,66 +1,65 @@
 body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-image:url(https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/wallpapers/af6953a10506-1920x1200.jpg);
-    color: #000000;
-    font-family: Lato;
-    font-size: 18px; 
-  }
-  
-  h1 {
-    padding: 0.5em 0 0 0;
-  }
-  
-  h1, p {
-    text-align: center;
-    color: #ffffff;
-  
-  }
-  
-  .inline {
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
-  }
-  
-  form {
-    width: 80vw;
-    max-width: 500px;
-    min-width: 300px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-    margin: 0 auto;
-    padding: 0 0.5em 1.5em 0.5em;
-  }
-  
-  label {
-    display: block;
-    margin: 0.5rem 0;
-    color: #ffffff
-  }
-  
-  input,
-  textarea,
-  select {
-    margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 2em;
-  }
-  
-  fieldset {
-    border: none;
-    padding: 1rem 0;
-    border-bottom: 3px solid #3b3b4f;
-  }
-  
-  fieldset:last-of-type {
-    padding: 1rem 0;
-    border-bottom: none;
-  }
-  
-  label[id="next-field"] {
-      margin: 0 0 1.4rem 0;
-  }
-  
-  
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image:url(https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/wallpapers/af6953a10506-1920x1200.jpg);
+  color: #000000;
+  font-family: Lato;
+  font-size: 18px; 
+}
+
+h1 {
+  padding: 0.5em 0 0 0;
+}
+
+h1, p {
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+form {
+  width: 80vw;
+  max-width: 500px;
+  min-width: 300px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+  padding: 0 0.5em 1.5em 0.5em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  color: #ffffff
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  padding: 1rem 0;
+  border-bottom: none;
+}
+
+label[id="next-field"] {
+    margin: 0 0 1.4rem 0;
+}
+
