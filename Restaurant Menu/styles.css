@@ -1,4 +1,40 @@
+html {
+    font-size: 20px;
+}
+
 body {
     background-image: url(https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2016/06/e5871faJUF43Z-QJ_Key-1920x1080.jpg);
-    font-family: fantasy;
+    font-family: Luminari;
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #FEC20CE6;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
+.established{
+    text-align: center;
+}
+
+.location {
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.main, .dessert {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    font-size: 0.75em;
 }
