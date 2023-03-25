@@ -1,3 +1,3 @@
 # Web-Design
 
-Just some Web Designs i've made 
+Just some HTML/CSS Web Designs i've made 
