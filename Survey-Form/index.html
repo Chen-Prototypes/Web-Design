@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Guild Wars 2 Raid Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body> 
+    <h1 id="title">Guild Wars 2 Raid Survey Form</h1>
+    <p id="description">Thank you for taking the time to tell us how you feel about raiding in GW2 </p>
+    
+    <form id="survey-form">
+      <fieldset> <!-- For basic information-->
+        <label id="name-label">Account Name
+          <input id="name" type="text" placeholder="Bob.1234" required>
+        </label>
+
+        <label id="email-label">Email
+          <input id="email" type="email" placeholder="bob@mail.com" required>
+        </label>
+
+        <label>Favourite Title
+          <input id="fav-title" type="text" placeholder="Voice in the Void" required>
+        </label>
+
+        <label id="number-label">Age (optional)
+          <input id="number" type="number" min="13" max="120" placeholder="22">
+        </label>
+      </fieldset>
+
+      <fieldset> <!-- Profession, EXP and Player Experience -->
+        <label id="next-field">What is your primary profession
+          <select id="dropdown" required>
+            <option value="">(select one)</option>
+            <option value="1">Warrior</option>
+            <option value="2">Guardian</option>
+            <option value="3">Revenant</option>
+            <option value="4">Ranger</option>
+            <option value="5">Thief</option>
+            <option value="6">Engineer</option>
+            <option value="7">Mesmer</option>
+            <option value="8">Elementalist</option>
+            <option value="9">Necromancer</option>
+          </select>
+        </label>
+
+        <label> What would you consider as your raiding level </label>
+        <label> 
+          <input id="adv" name="EXP" type="radio" class="inline" value="3"> Advanced
+        </label>
+        
+        <label> 
+          <input id="int" name="EXP" type="radio" class="inline" value="2"> Intermediate
+        </label>
+        
+        <label id="next-field"> 
+          <input id="beg" name="EXP" type="radio" class="inline" value="1"> Beginner
+        </label>
+ 
+        <label> What do you like about raiding? </label>
+        
+        <label> 
+          <input type="checkbox" name="like" class="inline" value="1"> Killing the cool bosses
+        </label>
+
+        <label>
+          <input type="checkbox" name="like" class="inline" value="2"> Legendary Insights
+        </label>
+
+        <label>
+          <input type="checkbox" name="like" class="inline" value="3"> Mechanical Intensity
+        <label>
+
+        <label id="next-field">
+          <input type="checkbox" name="like" class="inline" value="4"> Other
+        </label>
+
+        <label> Anything else you would like us to know?
+          <textarea rows="3" cols="30"></textarea>
+        </label>        
+      </fieldset>
+      
+      <input id="submit" type="submit" value="Submit">
+
+    </form>    
+  <body>
+</html>
