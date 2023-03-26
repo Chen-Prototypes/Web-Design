@@ -1,0 +1,50 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    background-color: rgb(237, 241, 245);
+}
+
+li {
+    font-size: 1.18em;
+    margin: 10px;
+}
+
+h1, #image-caption {
+    text-align: center;
+}
+
+
+#header {
+    margin: 0 auto;
+    padding: 0.05% 0;
+    background-color: azure;
+}
+
+#tribute-info {
+    margin: 0 auto;
+
+    width: 95%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#image {
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.bottom {
+    margin-bottom: 10px;
+}
+
+#wiki {
+    margin-bottom: 30px;
+}
