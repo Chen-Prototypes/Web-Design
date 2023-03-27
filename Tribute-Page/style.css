@@ -29,10 +29,10 @@ h2 {
     text-align: center;
 }
 
-#image {
-    max-width: 80%;
+img {
+    width: 80%;
     height: auto;
-    display: flex;
+    display: block;
     margin: 0 auto;
 }
 
